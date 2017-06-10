@@ -1,0 +1,8 @@
+# Kasutajate ja paroolide asukoht alates DOCUMENT ROOT asukohast
+AuthUserFile C:/xampp/htdocs/i244_eksam/.htpasswd
+# Autentimise nimi
+AuthName "Kasutaja tuvastamine"
+# Autentimise tüüp
+AuthType Basic
+# Kuvab autenitmise akna
+require user kasutaja
